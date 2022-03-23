@@ -22,17 +22,17 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
-{% for projects in site.data.projects %}
+{% for project in site.data.projects %}
 <section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{{ project.image | base.url | prepand: site.url }}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-						<h2>{{ projects.name }}</h2>
+						<h2>{{ project.name }}</h2>
 				</header>
-				<p>{{ projects.description }}</p> 
+				<p>{{ project.description }}</p> 
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
