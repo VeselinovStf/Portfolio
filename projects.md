@@ -1,12 +1,12 @@
 ---
-title: Landing
+title: Projects
 layout: landing
 description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
-<h1>LANDING</h1>
+<h1>PROJECTS</h1>
 <!-- Main -->
 <div id="main">
 

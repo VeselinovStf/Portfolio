@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Elements
+title: BIO
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
 
 
-<h1>ELEMENTS</h1>
+<h1>BIO</h1>
 <!-- Main -->
 <div id="main" class="alt">
 
