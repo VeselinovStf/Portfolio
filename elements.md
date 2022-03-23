@@ -5,6 +5,8 @@ image: assets/images/pic01.jpg
 nav-menu: true
 ---
 
+
+<h1>ELEMENTS</h1>
 <!-- Main -->
 <div id="main" class="alt">
 

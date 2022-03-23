@@ -6,6 +6,7 @@ image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
+<h1>LANDING</h1>
 <!-- Main -->
 <div id="main">
 
