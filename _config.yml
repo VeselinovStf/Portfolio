@@ -1,37 +1,44 @@
-title: Hello, world! I'm David Freeman
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-# Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/andrewbanchich
+  GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
 
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
+# build settings
 markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
+sass:
+  style: compressed
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
